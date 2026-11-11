@@ -1,4 +1,4 @@
-baseURL = 'https://facecodelove.github.io/Facecode-boke/'
+baseURL = 'https://facecodelove.github.io/Facecode-blog/'
 languageCode = 'zh-cn'
 title = "Facecode's Blog"
 enableRobotsTXT = true
