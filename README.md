@@ -1,4 +1,4 @@
-# Facecode-boke
+# Facecode-blog
 
 GitHub Pages + Hugo 静态博客。
 
