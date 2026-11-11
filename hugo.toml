@@ -1,0 +1,14 @@
+baseURL = 'https://facecodelove.github.io/Facecode-boke/'
+languageCode = 'zh-cn'
+title = "Facecode's Blog"
+enableRobotsTXT = true
+
+[params]
+  author = "Facecode"
+  description = "Facecode 的博客"
+
+[pagination]
+  pagerSize = 10
+
+[markup.highlight]
+  noClasses = true

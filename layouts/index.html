@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>{{ .Site.Title }}</h1>
+{{ with .Site.Params.description }}<p class="meta">{{ . }}</p>{{ end }}
+<ul>
+{{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="meta">{{ .Date.Format "2006-01-02" }}</span></li>
+{{ end }}
+</ul>
+{{ end }}
